@@ -268,6 +268,48 @@ export default function Home() {
         </div>
 
         <div className="mt-16 grid gap-10 md:grid-cols-2">
+          <form
+  action="https://formspree.io/f/xlgplbkp"
+  method="POST"
+  className="space-y-6"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    className="w-full border p-3 rounded-lg"
+    required
+  />
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    className="w-full border p-3 rounded-lg"
+    required
+  />
+
+  <input
+    type="text"
+    name="company"
+    placeholder="Company"
+    className="w-full border p-3 rounded-lg"
+  />
+
+  <textarea
+    name="message"
+    placeholder="Tell us about your project"
+    className="w-full border p-3 rounded-lg"
+    rows={4}
+  ></textarea>
+
+  <button
+    type="submit"
+    className="bg-[#05051c] text-white px-6 py-3 rounded-lg"
+  >
+    Start Your Free Audit
+  </button>
+</form>
           <div>
             <h3 className="text-4xl font-semibold">Book Your Free Audit</h3>
             <p className="mt-6 max-w-xl text-[20px] leading-10 text-[#6a6f85]">
