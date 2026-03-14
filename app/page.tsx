@@ -45,19 +45,18 @@ export default function Home() {
             ✨ Automation &amp; Systems Experts
           </div>
 
-          <h1 className="mt-8 text-5xl font-semibold leading-[1.02] md:text-7xl">
-            Automate &amp; Scale
-            <br />
-            Your <span className="text-[#6a5cff]">Niche</span>
-            <br />
-            <span className="text-[#6a5cff]">Business</span>
-          </h1>
+<h1 className="mt-8 text-5xl font-semibold leading-[1.02] md:text-7xl">
+  AI Automation for
+  <br />
+  <span className="text-[#6a5cff]">Small Businesses</span>
+  <br />
+  Automate & Scale
+</h1>
 
-          <p className="mt-8 max-w-xl text-2xl leading-10 text-[#6a6f85]">
-            We build custom marketing systems and automation for niche industries.
-            From automated workflows to complete marketing infrastructure—whatever
-            you need to scale efficiently.
-          </p>
+<p className="mt-8 max-w-xl text-2xl leading-10 text-[#6a6f85]">
+  NB Digital builds AI automation systems that help small businesses
+  automate lead generation, marketing workflows, and operations.
+</p>
 
           <div className="mt-10 flex flex-wrap gap-4">
             <a
@@ -103,28 +102,31 @@ export default function Home() {
 
       <section id="services" className="mx-auto max-w-7xl px-6 py-20">
         <div className="text-center">
-          <h2 className="text-5xl font-semibold">What We Build For You</h2>
-          <p className="mt-6 text-2xl text-[#6a6f85]">
-            Custom automation and marketing systems designed specifically for niche industries
-          </p>
+          <h2 className="text-5xl font-semibold">
+  AI Automation Services for Small Businesses
+</h2>
+<p className="mt-6 text-2xl text-[#6a6f85]">
+  We build AI automation services for small businesses, including marketing automation,
+  lead generation systems, and business process automation.
+</p>
         </div>
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
           {[
             {
-              title: "Marketing Automation",
+              title: "AI Marketing Automation",
               text: "Custom automated workflows for email, social media, and customer engagement that run on autopilot.",
             },
             {
-              title: "Business Process Automation",
+              title: "Business Process Automation for Small Businesses",
               text: "Streamline operations with automated systems for lead management, follow-ups, and customer onboarding.",
             },
             {
-              title: "Niche Marketing Strategy",
+              title: "AI Lead Generation Systems",
               text: "Industry-specific marketing campaigns designed to dominate your niche market and attract ideal customers.",
             },
             {
-              title: "Analytics & Reporting Systems",
+              title: "AI Analytics & Marketing Reporting",
               text: "Real-time dashboards and automated reporting to track KPIs and make data-driven decisions.",
             },
             {
