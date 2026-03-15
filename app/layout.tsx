@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Automation for Small Businesses | NB Digital",
+  title: "Harbor Point Merchant Services",
   description:
-    "NB Digital builds AI automation systems for small businesses, including marketing automation, lead generation systems, and business process automation.",
+    "Harbor Point Merchant Services provides merchant payment solutions and business services for growing companies.",
 
   keywords:
-    "AI automation agency, AI automation for small businesses, marketing automation agency, business process automation, AI lead generation systems",
+    "Harbor Point Merchant Services, merchant services, payment processing, business payment solutions, merchant payment solutions",
 
   openGraph: {
-    title: "AI Automation for Small Businesses | NB Digital",
+    title: "Harbor Point Merchant Services",
     description:
-      "NB Digital builds AI automation systems for small businesses, including marketing automation, lead generation systems, and business process automation.",
+      "Merchant payment solutions and business services for growing companies.",
     url: "https://nb-digital-viw1.vercel.app",
-    siteName: "NB Digital",
+    siteName: "Harbor Point Merchant Services",
     type: "website",
   },
 
