@@ -5,9 +5,9 @@ export default function Home() {
     <main className="min-h-screen bg-[#f7f7f8] text-[#111111]">
       <header className="border-b border-gray-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <div className="text-3xl font-bold tracking-tight text-indigo-600">
-            NB Digital
-          </div>
+<div className="flex items-center">
+  <img src="/logo.png" alt="Harbor Point Merchant Services" className="h-10 w-auto" />
+</div>
 
           <nav className="hidden items-center gap-10 md:flex">
             <a href="#home" className="text-[15px] text-gray-700 hover:text-black">
@@ -54,8 +54,7 @@ export default function Home() {
 </h1>
 
 <p className="mt-8 max-w-xl text-2xl leading-10 text-[#6a6f85]">
-  NB Digital builds AI automation systems that help small businesses
-  automate lead generation, marketing workflows, and operations.
+Harbor Point Merchant Services helps small businesses streamline payments, merchant services, and business operations.
 </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
