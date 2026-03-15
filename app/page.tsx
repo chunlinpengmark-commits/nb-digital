@@ -11,9 +11,15 @@ export default function Home() {
     alt="Harbor Point Marketing Services"
     className="h-12 w-auto object-contain"
   />
-  <span className="font-semibold text-xl tracking-tight text-slate-900">
-    Harbor Point Marketing
-  </span>
+
+  <div className="flex flex-col leading-tight">
+    <span className="font-semibold text-lg text-slate-900">
+      Harbor Point
+    </span>
+    <span className="text-xs text-slate-500">
+      Marketing Services
+    </span>
+  </div>
 </div>
 
           <nav className="hidden items-center gap-10 md:flex">
