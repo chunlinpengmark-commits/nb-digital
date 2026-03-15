@@ -13,14 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Automation Agency for Small Businesses | NB Digital",
-  description: "NB Digital helps businesses automate lead generation, marketing workflows and client follow-ups using AI automation systems.",
+  title: "AI Automation for Small Businesses | NB Digital",
+  description:
+    "NB Digital builds AI automation systems for small businesses, including marketing automation, lead generation systems, and business process automation.",
 
-  keywords: "AI automation agency, marketing automation agency, AI business automation, AI lead generation, automation consulting",
+  keywords:
+    "AI automation agency, AI automation for small businesses, marketing automation agency, business process automation, AI lead generation systems",
 
   openGraph: {
-    title: "AI Automation Agency | NB Digital",
-    description: "Automate your marketing, lead generation and operations with AI-powered automation systems.",
+    title: "AI Automation for Small Businesses | NB Digital",
+    description:
+      "NB Digital builds AI automation systems for small businesses, including marketing automation, lead generation systems, and business process automation.",
     url: "https://nb-digital-viw1.vercel.app",
     siteName: "NB Digital",
     type: "website",
