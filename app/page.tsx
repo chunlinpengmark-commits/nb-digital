@@ -38,7 +38,7 @@ export default function Home() {
             href="#contact"
             className="rounded-2xl bg-[#05051c] px-7 py-3 text-[15px] font-medium text-white"
           >
-            Get Started
+            Book a Free Consultation
           </a>
         </div>
       </header>
@@ -49,19 +49,19 @@ export default function Home() {
       >
         <div>
           <div className="inline-flex items-center rounded-full bg-[#ececf3] px-5 py-3 text-sm text-gray-600">
-            ✨ Automation &amp; Systems Experts
+            ✨ Marketing & Growth Experts
           </div>
 
 <h1 className="mt-8 text-5xl font-semibold leading-[1.02] md:text-7xl">
-  AI Automation for
+  Marketing That Helps
   <br />
   <span className="text-[#6a5cff]">Small Businesses</span>
   <br />
-  Automate & Scale
+  Grow Faster
 </h1>
 
 <p className="mt-8 max-w-xl text-2xl leading-10 text-[#6a6f85]">
-Harbor Point Marketing Services empowers businesses through custom website design, high-impact video advertising, and strategic product promotion.
+  Harbor Point Marketing Services helps small businesses grow with digital marketing, lead generation, automation, and clear growth strategy.
 </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -69,13 +69,13 @@ Harbor Point Marketing Services empowers businesses through custom website desig
               href="#contact"
               className="rounded-2xl bg-[#05051c] px-8 py-4 text-lg font-medium text-white"
             >
-              Get Your Free Audit →
+              Book Your Free Consultation →
             </a>
             <a
-              href="#how"
+              href="#services"
               className="rounded-2xl border border-gray-300 bg-white px-8 py-4 text-lg font-medium text-[#222]"
             >
-              See How It Works
+              See Our Services
             </a>
           </div>
 
@@ -109,41 +109,40 @@ Harbor Point Marketing Services empowers businesses through custom website desig
       <section id="services" className="mx-auto max-w-7xl px-6 py-20">
         <div className="text-center">
           <h2 className="text-5xl font-semibold">
-  AI Automation Services for Small Businesses
+  Marketing Services for Small Businesses
 </h2>
 <p className="mt-6 text-2xl text-[#6a6f85]">
-  We build AI automation services for small businesses, including marketing automation,
-  lead generation systems, and business process automation.
+We help small businesses grow with smart marketing strategy, lead generation, automation, and brand positioning.
 </p>
         </div>
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
-          {[
-            {
-              title: "AI Marketing Automation",
-              text: "Custom automated workflows for email, social media, and customer engagement that run on autopilot.",
-            },
-            {
-              title: "Business Process Automation for Small Businesses",
-              text: "Streamline operations with automated systems for lead management, follow-ups, and customer onboarding.",
-            },
-            {
-              title: "AI Lead Generation Systems",
-              text: "Industry-specific marketing campaigns designed to dominate your niche market and attract ideal customers.",
-            },
-            {
-              title: "AI Analytics & Marketing Reporting",
-              text: "Real-time dashboards and automated reporting to track KPIs and make data-driven decisions.",
-            },
-            {
-              title: "CRM & Sales Systems",
-              text: "Complete sales infrastructure with automated pipelines, nurture sequences, and conversion tracking.",
-            },
-            {
-              title: "Custom Solutions",
-              text: "Tailored systems and integrations built specifically for your unique business needs and industry.",
-            },
-          ].map((item) => (
+{[
+  {
+    title: "Digital Marketing Strategy",
+    text: "Clear marketing plans designed to help small businesses attract better leads and grow consistently.",
+  },
+  {
+    title: "Lead Generation Campaigns",
+    text: "Targeted campaigns that bring in qualified leads through paid ads, funnels, and conversion-focused landing pages.",
+  },
+  {
+    title: "Marketing Automation",
+    text: "Automated follow-up systems for email, SMS, and customer journeys so no opportunity gets missed.",
+  },
+  {
+    title: "Content & Brand Positioning",
+    text: "Messaging, offers, and brand presentation that make your business look trustworthy and stand out online.",
+  },
+  {
+    title: "Analytics & Reporting",
+    text: "Simple performance tracking so you can understand what is working and where to invest next.",
+  },
+  {
+    title: "Custom Growth Support",
+    text: "Flexible marketing support tailored to your business stage, industry, and goals.",
+  },
+].map((item) => (
             <div key={item.title} className="rounded-[28px] border border-gray-200 bg-white p-9">
               <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 text-2xl text-white">
                 ✦
@@ -209,7 +208,7 @@ Harbor Point Marketing Services empowers businesses through custom website desig
           </div>
 
           <a
-            href="#how"
+            href="#services"
             className="mt-10 inline-block rounded-2xl bg-[#05051c] px-8 py-4 text-lg font-medium text-white"
           >
             See How We Work
@@ -269,9 +268,9 @@ Harbor Point Marketing Services empowers businesses through custom website desig
 
       <section id="contact" className="mx-auto max-w-7xl px-6 py-20">
         <div className="text-center">
-          <h2 className="text-5xl font-semibold">Ready to Automate &amp; Scale?</h2>
+          <h2 className="text-5xl font-semibold">Ready to Grow Your Business?</h2>
           <p className="mt-6 text-2xl text-[#6a6f85]">
-            Get a free audit of your current systems. We&apos;ll show you exactly how to automate and grow.
+            Book a free consultation and we will show you how Harbor Point Marketing Services can help you attract more leads and grow with confidence.
           </p>
         </div>
 
@@ -406,7 +405,7 @@ Harbor Point Marketing Services empowers businesses through custom website desig
                 type="submit"
                 className="w-full rounded-2xl bg-[#05051c] px-6 py-5 text-xl font-medium text-white"
               >
-                Book My Free Audit
+                Book My Free Consultation
               </button>
             </div>
           </form>
