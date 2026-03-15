@@ -5,8 +5,15 @@ export default function Home() {
     <main className="min-h-screen bg-[#f7f7f8] text-[#111111]">
       <header className="border-b border-gray-200 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-<div className="flex items-center">
-  <img src="/logo.png" alt="Harbor Point Merchant Services" className="h-10 w-auto" />
+<div className="flex items-center gap-2">
+  <img
+    src="/logo.png"
+    alt="Harbor Point"
+    className="h-12 w-auto object-contain"
+  />
+  <span className="font-semibold text-xl tracking-tight text-slate-900">
+    Harbor Point
+  </span>
 </div>
 
           <nav className="hidden items-center gap-10 md:flex">
