@@ -8,11 +8,11 @@ export default function Home() {
 <div className="flex items-center gap-2">
   <img
     src="/logo.png"
-    alt="Harbor Point"
+    alt="Harbor Point Marketing Services"
     className="h-12 w-auto object-contain"
   />
   <span className="font-semibold text-xl tracking-tight text-slate-900">
-    Harbor Point
+    Harbor Point Marketing
   </span>
 </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
 </h1>
 
 <p className="mt-8 max-w-xl text-2xl leading-10 text-[#6a6f85]">
-Harbor Point Merchant Services helps small businesses streamline payments, merchant services, and business operations.
+Harbor Point Marketing Services empowers businesses through custom website design, high-impact video advertising, and strategic product promotion.
 </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
